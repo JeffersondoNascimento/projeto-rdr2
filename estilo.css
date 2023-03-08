@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-image: url(imagens/capa01.jpg);
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    color: white;
+    padding: 10px;
+    margin: 0px;
+    background-color: black;
+    line-height: 65px;
+}
+
+main {
+    color: white;
+
+}
+
+.barra-site {
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-radius: 20px;
+
+}
+
+.compra {
+    margin-top: 17px;
+    margin-right: 25px;
+    margin-bottom: 33px;
+    margin-left: 23px;
+    list-style: none;
+}
+
+.login {
+    margin-top: 17px;
+    margin-right: 20px;
+    margin-bottom: 34px;
+    margin-left: 23px;
+    list-style: none;
+}
+
+#procura {
+    margin-top: 24px;
+    margin-right: 28px;
+    margin-bottom: 56px;
+    margin-left: 23px;
+    width: 210px;
+    text-align: left;
+}
